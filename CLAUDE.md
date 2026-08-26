@@ -16,7 +16,8 @@ passage and validated against human labels.
 - Development is issue-driven: every change traces back to a GitHub issue.
 - Branch naming: `<type>/<issue>-<slug>`.
 - Commits follow Conventional Commits.
-- Never commit directly to `main`.
+- Never commit directly to `main` — mechanically enforced via branch
+  protection (`scripts/apply-branch-protection.sh`), not just convention.
 
 ## Secrets
 
